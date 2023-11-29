@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+form > fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+}
+
+form > fieldset > * {
+    padding: 0.3rem;
+}
+
+.new-element-wrapper {
+    display: flex;
+    background-color: blue;
+}
+
+.remove-button {
+    margin-left: 1rem;
+}
+
+.checkbox-clicked {
+    border: 1px dashed red;
+}
+
+.checkbox {
+    margin-right: 1rem;
+}
